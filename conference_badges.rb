@@ -9,7 +9,7 @@ def batch_badge_creator(badge)
     list[counter] = badge_maker(name)
     counter += 1
   end
-  attendees
+  list
 end
 
 def assign_rooms
