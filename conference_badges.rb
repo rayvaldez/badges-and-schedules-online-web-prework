@@ -7,7 +7,7 @@ def batch_badge_creator(badge)
   list = []
   badge.each do |badge|
     list[counter] = badge_maker(name)
-    counter += 1
+    counter +=1
   end
   list
 end
